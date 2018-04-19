@@ -2,6 +2,10 @@
 
 class FizzBuzz {
   function calc($number) {
-    return 'Fizz';
+    if (($number % 3) == 0):
+      return "Fizz";
+    elseif (($number % 5) == 0):
+      return "Buzz";
+    endif;
   }
 }
