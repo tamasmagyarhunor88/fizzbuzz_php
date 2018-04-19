@@ -2,6 +2,6 @@
 
 class FizzBuzz {
   function calc($number) {
-    return true;
+    return 'Fizz';
   }
 }
