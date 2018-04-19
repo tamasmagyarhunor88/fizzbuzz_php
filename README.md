@@ -7,7 +7,7 @@ Make sure you have Composer installed. Composer is a package/dependency manager 
 $ git clone https://github.com/tamasmagyarhunor88/fizzbuzz_php.git
 $ cd fizzbuzz_php
 $ composer install                            # install dependencies
-$ vendor/bin/phpunit Tests/FizzBuzzTest.php   # run tests
+$ phpunit Tests/FizzBuzzTest.php   # run tests
 ```
 
 ### Tests
