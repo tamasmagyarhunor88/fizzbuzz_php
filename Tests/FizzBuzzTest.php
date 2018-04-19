@@ -19,4 +19,9 @@ class FizzBuzzTest extends TestCase {
     $fizzbuzz = New FizzBuzz;
     $this->assertEquals($fizzbuzz->calc(15), "FizzBuzz");
   }
+
+  function testFizzBuzzPrintsNumberIfNoneOfTheAbove() {
+    $fizzbuzz = New FizzBuzz;
+    $this->assertEquals($fizzbuzz->calc(13), 13);
+  }
 }
